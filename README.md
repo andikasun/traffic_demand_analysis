@@ -1,12 +1,11 @@
 # Grab AI Challenge
 
-Grab AI Challenge consists of 3 challenges, Computer Vision, Safety and Traffic Demand Management. In this repository, I aimed to solve the Traffic Demand Challenge
+Grab AI Challenge consists of 3 challenges, Computer Vision, Safety and Traffic Demand Management. In this repository, I aimed to solve the Traffic Demand Challenge.
 
 ## Dependency
 
-The code is run under Conda and Jupyter Notebook Environment. Dependency list:
+The code is run on Conda and Jupyter Notebook environment. Dependency list:
 numpy, pandas, sklearn, matplotlib, geohash, hdbscan
-
 
 
 ## Files List
@@ -16,7 +15,7 @@ The repository consist of 3 files:
 A small set of training data extracted from the original demand data set to demonstrate how to run the function.
 
 #### Grab_demand-EXPLORATORY.ipynb
-This is where the initial exploratory is runned. Feature extraction, testing for various Machine Learning algorithm is conducted here. This file will take significant amount of time to run, around 20-40 minutes for 5% of the data sample. 
+This is where the initial exploratory is run. Feature extraction, testing for various Machine Learning algorithm is conducted here. This file will take significant amount of time to run, around 20-40 minutes for 5% of the data sample. 
 Major running time is at hdbscan and GridSearchCV processes.
 The datasample can be adjusted in EXPLORATORY_SAMPLE.
 
