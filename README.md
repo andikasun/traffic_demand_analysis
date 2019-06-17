@@ -18,7 +18,7 @@ A small set of training data extracted from the original demand data set to demo
 This is where the initial exploratory is run. Feature extraction, testing for various Machine Learning algorithm is conducted here. This file will take significant amount of time to run, around 20-40 minutes for 5% of the data sample.  
 Major bottle neck is on hdbscan and GridSearchCV processes.  
 The datasample can be adjusted in EXPLORATORY_SAMPLE.  
-For the 5% sample, best result is obtained by using RandomForestRegressor with an MSE of 0.00325. Hyper parameter: max_depth=40,  n_estimators=300
+For the 5% sample, best result is obtained by using RandomForestRegressor with an MSE of 0.00316. Hyper parameter: max_depth=60,  n_estimators=450
 
 #### Grab_demand-WORKING_FILE.ipynb
 The data prediction is done here using the best algorithm and hyper parameters acquired from exploratory process.  
